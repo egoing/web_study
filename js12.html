@@ -7,12 +7,25 @@
   <body>
     <ul>
     <script>
+      var id = prompt('아이디를 입력하세요');
       var persons = ['최진혁', '최유빈', '한이람', '한이은', '김호순'];
       var i = 0;
       while(i < persons.length){
-        document.write('<li>'+persons[i]+'</li>');
+        if(id == persons[i]){
+          document.write('주인님 안녕하슈');
+          break;
+        }
         i = i + 1;
       }
+
+
+
+
+
+
+
+
+
     </script>
   </ul>
   </body>
