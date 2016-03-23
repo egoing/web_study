@@ -7,17 +7,21 @@
   <body>
     <script type="text/javascript">
 
-    function login(){
-      var pwd = prompt('password?');
+    function login(pwd){
       if(pwd == '2222') {
         return '주인님 어서오세요';
       } else {
         return '뉘슈?';
       }
     }
-    document.write(login());
-    alert(login());
-    document.write('나의 생각 : '+login());
+    var pwd = prompt('password?');
+    document.write(login(pwd));
+
+    var pwd = prompt('아이고 어서오세요. 비밀번호 혹시 기억하세요? ^^;;');
+    alert(login(pwd));
+
+    var pwd = prompt('비번?');
+    document.write('나의 생각 : '+login(pwd));
     </script>
   </body>
 </html>
