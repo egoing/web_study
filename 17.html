@@ -10,14 +10,14 @@
     function login(){
       var pwd = prompt('password?');
       if(pwd == '2222') {
-        document.write('주인님 어서오세요');
+        return '주인님 어서오세요';
       } else {
-        document.write('뉘슈?');
+        return '뉘슈?';
       }
     }
-    login();
-    login();
-    login();
+    document.write(login());
+    alert(login());
+    document.write('나의 생각 : '+login());
     </script>
   </body>
 </html>
