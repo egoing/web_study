@@ -9,3 +9,6 @@ body.white{
 .jumbotron{
   margin-top:20px;
 }
+body{
+  font-family: 'Lobster', cursive !important;
+}
